@@ -31,7 +31,8 @@
                   <p class="lead text-uppercase mb-1">Hello!</p>
                   <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m George Alfeser, but you can
                     call me Shiro.</h1>
-                  <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Support Specialist & Backend Developer</p>
+                  <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Support Specialist & Backend
+                    Developer</p>
                   <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
                     <nav role="navigation">
                       <ul class="nav justify-content-left">
@@ -497,7 +498,7 @@ const message = ref('')
 
 const contactme = async () => {
   try {
-    if (name.value != '' && email.value != '' && message.value != '') {
+    if (name.value != '' || email.value != '' || message.value != '') {
       await addDoc(collection(db, "contactus"), {
         name: name.value,
         email: email.value,
@@ -528,6 +529,3 @@ const contactme = async () => {
   }
 }
 </script>
-
-
-<style></style>
