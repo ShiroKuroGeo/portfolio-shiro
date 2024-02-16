@@ -302,7 +302,7 @@
                     <div>
                       <h3 class="h5 mb-1">OJT - Support Specialist</h3>
                       <div class="text-muted text-small">Wise Immigration<small>( 2024 - 3 Months )</small></div>
-                    </div><img src="images/illustrations/dn.jpg" width="48" height="48" alt="full stack" />
+                    </div><img src="images/services/support.png" width="48" height="48" alt="full stack" />
                   </div>
                 </div>
                 <div class="card-body px-3 py-2">
@@ -321,7 +321,7 @@
                     <div>
                       <h3 class="h5 mb-1">Computer Systems Servicing - CSS</h3>
                       <div class="text-muted text-small">TESDA <small>( 2022 - 2023 )</small></div>
-                    </div><img src="images/illustrations/dn.jpg" width="48" height="48" alt="full stack" />
+                    </div><img src="images/services/support2.png" width="48" height="48" alt="full stack" />
                   </div>
                 </div>
                 <div class="card-body px-3 py-2">
