@@ -480,6 +480,7 @@
 import { ref } from 'vue'
 import { db } from '../firebase/firestore'
 import { collection, addDoc } from "firebase/firestore";
+import Swal from 'sweetalert2'
 
 const name = ref('')
 const email = ref('')
@@ -496,16 +497,28 @@ const contactme = async () => {
       name.value = ''
       email.value = ''
       message.value = ''
-      alert('Success')
+      Swal.fire({
+        title: 'Success!',
+        text: 'Message sent successfully.',
+        icon: 'success' 
+      })
     } else {
-      alert('sad');
+      Swal.fire({
+        title: 'Error!',
+        text: 'Please fill in all fields.',
+        icon: 'error'
+      })
     }
-
   } catch (e) {
-    console.log('hello ' + e);
+    console.log('Error:', e);
+    Swal.fire({
+      title: 'Error!',
+      text: 'An error occurred while sending the message.',
+      icon: 'error'
+    })
   }
 }
-
 </script>
+
 
 <style></style>
