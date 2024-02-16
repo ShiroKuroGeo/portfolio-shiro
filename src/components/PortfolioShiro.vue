@@ -442,7 +442,7 @@
                       rows="4" required></textarea>
                   </div>
                   <span></span>
-                  <button class="btn btn-primary mt-2" type="button" @click="contactme">Send</button>
+                  <button class="btn btn-primary mt-2 " type="button" @click="contactme">Send</button>
                 </form>
               </div>
             </div>
@@ -487,14 +487,20 @@ const message = ref('')
 
 const contactme = async () => {
   try {
-    await addDoc(collection(db, "contactus"), {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    });
-    name.value = ''
-    email.value = ''
-    message.value = ''
+    if (name.value != '' && email.value != '' && message.value != '') {
+      await addDoc(collection(db, "contactus"), {
+        name: name.value,
+        email: email.value,
+        message: message.value,
+      });
+      name.value = ''
+      email.value = ''
+      message.value = ''
+      alert('Success')
+    } else {
+      alert('sad');
+    }
+
   } catch (e) {
     console.log('hello ' + e);
   }
