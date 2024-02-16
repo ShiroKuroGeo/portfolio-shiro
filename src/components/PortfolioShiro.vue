@@ -31,8 +31,7 @@
                   <p class="lead text-uppercase mb-1">Hello!</p>
                   <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m George Alfeser, but you can
                     call me Shiro.</h1>
-                  <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Support Specialist & Web
-                    Developing</p>
+                  <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Support Specialist & Backend Developer</p>
                   <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
                     <nav role="navigation">
                       <ul class="nav justify-content-left">
@@ -43,6 +42,11 @@
                             href="https://www.instagram.com/i_am_selenophile07?igsh=MXN2MjNoZHB2dGl2Ng=="
                             title="Instagram"><i class="fab fa-instagram"></i><span
                               class="menu-title sr-only">Instagram</span></a></li>
+                        <li class="nav-item"><a class="nav-link"
+                            href="https://www.tiktok.com/@blacknokutoru?_t=8jv0vOgPapG&_r=1" title="tiktok"><i
+                              class="fab fa-tiktok"></i><span class="menu-title sr-only">Tiktok</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/ShiroKuroGeo" title="github"><i
+                              class="fab fa-github"></i><span class="menu-title sr-only">github</span></a></li>
                       </ul>
                     </nav>
                   </div>
@@ -159,25 +163,25 @@
                 <div class="py-1">
                   <div class="d-flex text-small fw-bolder"><span class="me-auto">HTML5</span><span>90%</span></div>
                   <div class="progress my-1">
-                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100"
-                      data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%"
+                      aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
                 <div class="py-1">
                   <div class="d-flex text-small fw-bolder"><span class="me-auto">CSS3</span><span>40%</span></div>
                   <div class="progress my-1">
-                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200"
-                      data-aos-anchor=".skills-section" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 40%"
+                      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
                 <div class="py-1">
                   <div class="d-flex text-small fw-bolder"><span class="me-auto">JavaScript</span><span>50%</span></div>
                   <div class="progress my-1">
-                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
-                      data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 50%"
+                      aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -186,26 +190,26 @@
                 <div class="py-1">
                   <div class="d-flex text-small fw-bolder"><span class="me-auto">PHP</span><span>90%</span></div>
                   <div class="progress my-1">
-                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400"
-                      data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 90%"
+                      aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
                 <div class="py-1">
                   <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>80%</span></div>
                   <div class="progress my-1">
-                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600"
-                      data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 80%"
+                      aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
                 <div class="py-1">
                   <div class="d-flex text-small fw-bolder"><span class="me-auto">Information Technology Support
                       Specialist</span><span>60%</span></div>
                   <div class="progress my-1">
-                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600"
-                      data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%"
+                      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -453,7 +457,7 @@
         <div class="container">
           <div class="my-3">
             <div class="h4">George Alfeser Inoc</div>
-            <p>Support Specialist & Web Developing</p>
+            <p>Support Specialist & Backend Developer</p>
             <div class="social-nav">
               <nav role="navigation">
                 <ul class="nav justify-content-center">
@@ -463,6 +467,11 @@
                   <li class="nav-item"><a class="nav-link"
                       href="https://www.instagram.com/i_am_selenophile07?igsh=MXN2MjNoZHB2dGl2Ng==" title="Instagram"><i
                         class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
+                  <li class="nav-item"><a class="nav-link"
+                      href="https://www.tiktok.com/@blacknokutoru?_t=8jv0vOgPapG&_r=1" title="tiktok"><i
+                        class="fab fa-tiktok"></i><span class="menu-title sr-only">Tiktok</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://github.com/ShiroKuroGeo" title="github"><i
+                        class="fab fa-github"></i><span class="menu-title sr-only">github</span></a></li>
                 </ul>
               </nav>
             </div>
@@ -500,7 +509,7 @@ const contactme = async () => {
       Swal.fire({
         title: 'Success!',
         text: 'Message sent successfully.',
-        icon: 'success' 
+        icon: 'success'
       })
     } else {
       Swal.fire({

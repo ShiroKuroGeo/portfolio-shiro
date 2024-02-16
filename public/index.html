@@ -21,6 +21,23 @@
   <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
   <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
   <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+  <style>
+    @keyframes draw {
+      0% {
+        stroke-dashoffset: 400;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    path {
+      stroke-dasharray: 400;
+      stroke-dashoffset: 400;
+      animation: draw 3s linear forwards;
+    }
+  </style>
   <noscript>
     <style type="text/css">
       [data-aos] {
