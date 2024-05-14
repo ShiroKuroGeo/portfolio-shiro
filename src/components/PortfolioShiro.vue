@@ -10,7 +10,7 @@
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
             <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
@@ -29,7 +29,8 @@
               <div class="col-lg-6">
                 <div class="mt-5">
                   <p class="lead text-uppercase mb-1">Hello!</p>
-                  <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m George Alfeser, but you can
+                  <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m George Alfeser, but you
+                    can
                     call me Shiro.</h1>
                   <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Support Specialist & Backend
                     Developer</p>
@@ -46,14 +47,18 @@
                         <li class="nav-item"><a class="nav-link"
                             href="https://www.tiktok.com/@blacknokutoru?_t=8jv0vOgPapG&_r=1" title="tiktok"><i
                               class="fab fa-tiktok"></i><span class="menu-title sr-only">Tiktok</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/ShiroKuroGeo" title="github"><i
-                              class="fab fa-github"></i><span class="menu-title sr-only">github</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/ShiroKuroGeo"
+                            title="github"><i class="fab fa-github"></i><span
+                              class="menu-title sr-only">github</span></a></li>
                       </ul>
                     </nav>
                   </div>
-                  <div class="mt-3" data-aos="fade-up" data-aos-delay="200"><a
-                      class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i
-                        class="fas fa-arrow-right"></i></a></div>
+                  <div class="mt-3" data-aos="fade-up" data-aos-delay="200">
+                    <a class="btn btn-primary shadow-sm mt-1 me-2 hover-effect" href="#contact">Get In Touch <i
+                        class="fas fa-arrow-right"></i></a>
+                    <!-- <a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Resume <i
+                        class="fas fa-ducoment"></i></a> -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -64,54 +69,67 @@
       <div class="section pt-4 px-3 px-lg-4" id="about">
         <div class="container-narrow">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <h2 class="h4 my-2">Hello! I’m George Alfeser.</h2>
-              <p>As a dedicated backend developer, I'm passionate about overseeing the complex server-side infrastructure
+              <p>As a dedicated backend developer, I'm passionate about overseeing the complex server-side
+                infrastructure
                 of web applications,
                 ensuring they're both resilient and scalable. I derive satisfaction from delving into the intricacies of
                 data storage and retrieval,
                 and devising efficient solutions that enhance performance and elevate user experiences.</p>
-              <div class="row mt-3">
-                <div class="col-sm-2">
-                  <div class="pb-1">Age:</div>
+              <div class="row d-flex mt-3">
+                <div class="col-12 d-flex">
+                  <div class="col-2">
+                    <div class="pb-1">Age:</div>
+                  </div>
+                  <div class="col-10">
+                    <div class="pb-1 fw-bolder">22</div>
+                  </div>
                 </div>
-                <div class="col-sm-10">
-                  <div class="pb-1 fw-bolder">22</div>
+                <div class="col-12 d-flex">
+                  <div class="col-2">
+                    <div class="pb-1">Email:</div>
+                  </div>
+                  <div class="col-10">
+                    <div class="pb-1 fw-bolder">Inocgeorgealfeser@gmail.com</div>
+                  </div>
                 </div>
-                <div class="col-sm-2">
-                  <div class="pb-1">Email:</div>
+                <div class="col-12 d-flex">
+                  <div class="col-2">
+                    <div class="pb-1">Skype:</div>
+                  </div>
+                  <div class="col-10">
+                    <div class="pb-1 fw-bolder">George Alfeser Inoc</div>
+                  </div>
                 </div>
-                <div class="col-sm-10">
-                  <div class="pb-1 fw-bolder">inocgeorgealfeser@gmail.com</div>
+                <div class="col-12 d-flex">
+                  <div class="col-2">
+                    <div class="pb-1">Phone:</div>
+                  </div>
+                  <div class="col-10">
+                    <div class="pb-1 fw-bolder">0948-475-0030</div>
+                  </div>
                 </div>
-                <div class="col-sm-2">
-                  <div class="pb-1">Skype:</div>
+                <div class="col-12 d-flex">
+                  <div class="col-2">
+                    <div class="pb-1">Address:</div>
+                  </div>
+                  <div class="col-10">
+                    <div class="pb-1 fw-bolder">Poblacion, Cordova, Cebu</div>
+                  </div>
                 </div>
-                <div class="col-sm-10">
-                  <div class="pb-1 fw-bolder">George Alfeser Inoc</div>
-                </div>
-                <div class="col-sm-2">
-                  <div class="pb-1">Phone:</div>
-                </div>
-                <div class="col-sm-10">
-                  <div class="pb-1 fw-bolder">0948-475-0030</div>
-                </div>
-                <div class="col-sm-2">
-                  <div class="pb-1">Address:</div>
-                </div>
-                <div class="col-sm-10">
-                  <div class="pb-1 fw-bolder">Poblacion, Cordova, Cebu</div>
-                </div>
-                <div class="col-sm-2">
-                  <div class="pb-1">Status:</div>
-                </div>
-                <div class="col-sm-10">
-                  <div class="pb-1 fw-bolder">Available</div>
+                <div class="col-12 d-flex">
+                  <div class="col-2">
+                    <div class="pb-1">Status:</div>
+                  </div>
+                  <div class="col-10">
+                    <div class="pb-1 fw-bolder">Available</div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100">
-              <img class="avatar img-fluid mt-2" src="images/avatar.jpg" width="400" height="400"
+            <div class="col-lg-5 offset-md-1 d-flex justify-content-center" data-aos="fade-left" data-aos-delay="100">
+              <img class="avatar mt-2 shadow rounded-2" src="images/mypicture.jpg" width="400" height="400"
                 alt="Walter Patterson" />
             </div>
           </div>
@@ -185,6 +203,22 @@
                       aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">Vue JS</span><span>80%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%"
+                      aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">JQuery</span><span>60%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 60%"
+                      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
               </div>
 
               <div class="col-md-5 offset-md-2">
@@ -213,6 +247,14 @@
                       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">Laravel</span><span>70%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
+                      data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 70%"
+                      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -222,10 +264,9 @@
       <div class="section px-2 px-lg-4 pt-5" id="portfolio">
         <div class="container">
           <div class="text-center mb-5">
-            <h2 class="marker marker-center">Portfolio</h2>
+            <h2 class="marker marker-center">Projects</h2>
           </div>
-          <div class="grid bp-gallery pb-3 d-flex" data-aos="zoom-in-up" data-aos-delay="100">
-            <div class="grid-sizer"></div>
+          <div class="grid bp-gallery pb-3 d-flex justify-content-center" data-aos="zoom-in-up" data-aos-delay="100">
             <div class="grid-item">
               <a href="https://github.com/ShiroKuroGeo/uphols">
                 <figure class="portfolio-item">
@@ -240,7 +281,7 @@
             <div class="grid-item">
               <a href="https://github.com/ShiroKuroGeo/wise_concern">
                 <figure class="portfolio-item">
-                  <img src="images/wise.png" data-bp="images/portfolio/2.jpg" class="border"
+                  <img src="images/avatar.jpg" data-bp="images/portfolio/2.jpg" class="border"
                     data-caption="Example of an optional caption." />
                   <figcaption>
                     <h4 class="h5 mb-0">OJT Project</h4>
@@ -287,8 +328,10 @@
                   </div>
                 </div>
                 <div class="card-body px-3 py-2">
-                  <p>Being 2nd Placer. Pursuing my Information Technology ( IT ) College, Competing among talented peers,
-                    I showcased my prowess in crafting efficient and elegant database queries to extract valuable insights
+                  <p>Being 2nd Placer. Pursuing my Information Technology ( IT ) College, Competing among talented
+                    peers,
+                    I showcased my prowess in crafting efficient and elegant database queries to extract valuable
+                    insights
                     from complex datasets.</p>
                   <p>Throughout the competition, I demonstrated proficiency in optimizing queries for performance,
                     accuracy, and scalability.</p>
@@ -307,7 +350,8 @@
                 </div>
                 <div class="card-body px-3 py-2">
                   <p>Immersing myself in real-world projects, I collaborated closely with seasoned professionals,
-                    absorbing knowledge and refining my skills. From day one, I eagerly tackled challenges, demonstrating
+                    absorbing knowledge and refining my skills. From day one, I eagerly tackled challenges,
+                    demonstrating
                     adaptability and a thirst for learning.</p>
                   <p>Throughout the training period, I actively contributed to make project about Concern and Job Orders
                     Web Application.</p>
@@ -329,7 +373,8 @@
                     disassembling computer systems,
                     diagnosing hardware issues, and installing and configuring software applications.</p>
                   <p>Overall, my training in Computer Systems Servicing equipped me with the necessary
-                    skills and expertise to effectively support and maintain computer systems in various environments.</p>
+                    skills and expertise to effectively support and maintain computer systems in various environments.
+                  </p>
                 </div>
               </div>
             </div>
@@ -408,24 +453,30 @@
                 <p>See you!</p>
               </div>
               <div class="mt-53 px-1">
-                <div class="row">
-                  <div class="col-sm-2">
-                    <div class="pb-1">Email:</div>
+                <div class="row d-flex">
+                  <div class="col-12 d-flex">
+                    <div class="col-2">
+                      <div class="pb-1">Email:</div>
+                    </div>
+                    <div class="col-10">
+                      <div class="pb-1 fw-bolder">Inocgeorgealfeser@gmail.com</div>
+                    </div>
                   </div>
-                  <div class="col-sm-10">
-                    <div class="pb-1 fw-bolder">inocgeorgealfeser@gmail.com</div>
+                  <div class="col-12 d-flex">
+                    <div class="col-sm-2">
+                      <div class="pb-1">Skype:</div>
+                    </div>
+                    <div class="col-sm-10">
+                      <div class="pb-1 fw-bolder">George Alfeser Inoc</div>
+                    </div>
                   </div>
-                  <div class="col-sm-2">
-                    <div class="pb-1">Skype:</div>
-                  </div>
-                  <div class="col-sm-10">
-                    <div class="pb-1 fw-bolder">George Alfeser Inoc</div>
-                  </div>
-                  <div class="col-sm-2">
-                    <div class="pb-1">Phone:</div>
-                  </div>
-                  <div class="col-sm-10">
-                    <div class="pb-1 fw-bolder">0948-475-0030</div>
+                  <div class="col-12 d-flex">
+                    <div class="col-sm-2">
+                      <div class="pb-1">Phone:</div>
+                    </div>
+                    <div class="col-sm-10">
+                      <div class="pb-1 fw-bolder">0948-475-0030</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -463,7 +514,8 @@
               <nav role="navigation">
                 <ul class="nav justify-content-center">
                   <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/kurotoshirogeo"
-                      title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                      title="Facebook"><i class="fab fa-facebook"></i><span
+                        class="menu-title sr-only">Facebook</span></a>
                   </li>
                   <li class="nav-item"><a class="nav-link"
                       href="https://www.instagram.com/i_am_selenophile07?igsh=MXN2MjNoZHB2dGl2Ng==" title="Instagram"><i
