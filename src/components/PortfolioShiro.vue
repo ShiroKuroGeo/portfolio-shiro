@@ -21,7 +21,7 @@
   <div class="page-content">
     <div id="content">
       <header>
-        <div class="cover bg-light">
+        <div class="cover bg-white">
           <div class="container px-3">
             <div class="row">
               <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/helloo.gif" alt="hello" />
