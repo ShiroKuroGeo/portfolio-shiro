@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white">
+  <header class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
       <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">George Alfeser </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -21,7 +21,7 @@
   <div class="page-content">
     <div id="content">
       <header>
-        <div class="cover bg-white">
+        <div class="cover bg-light">
           <div class="container px-3">
             <div class="row">
               <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/helloo.gif" alt="hello" />
