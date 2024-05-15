@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-light">
+  <header class="bg-white">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
       <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">George Alfeser </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
