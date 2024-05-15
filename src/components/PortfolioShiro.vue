@@ -29,7 +29,7 @@
               <div class="col-lg-6">
                 <div class="mt-5">
                   <p class="lead text-uppercase mb-1">Hello!</p>
-                  <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m George Alfeser, but you
+                  <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m Inoc George Alfeser, but you
                     can
                     call me Shiro.</h1>
                   <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Support Specialist & Backend
