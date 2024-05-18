@@ -56,8 +56,8 @@
                   <div class="mt-3" data-aos="fade-up" data-aos-delay="200">
                     <a class="btn btn-primary shadow-sm mt-1 me-2 hover-effect" href="#contact">Get In Touch <i
                         class="fas fa-arrow-right"></i></a>
-                    <!-- <a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Resume <i
-                        class="fas fa-ducoment"></i></a> -->
+                    <a class="btn btn-primary shadow-sm mt-1 hover-effect" href="images/portfolio/George-Alfeser-Resume.docx">Resume <i
+                        class="fas fa-ducoment"></i></a> 
                   </div>
                 </div>
               </div>
