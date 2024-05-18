@@ -54,11 +54,10 @@
                     </nav>
                   </div>
                   <div class="mt-3" data-aos="fade-up" data-aos-delay="200">
-                    <a class="btn btn-primary shadow-sm mt-1 me-2 hover-effect" href="#contact">Get In Touch <i
-                        class="fas fa-arrow-right"></i></a>
                     <a class="btn btn-primary shadow-sm mt-1 me-2 hover-effect" href="images/portfolio/George-Alfeser-Resume.docx">Download Resume <i
                         class="fas fa-ducoment"></i></a>    
-                    <embed class="btn btn-primary shadow-sm mt-1 hover-effect" src="path/to/George-Alfeser-Resume.pdf" width="100%" height="600px" type="application/pdf">
+                    <a class="btn btn-primary shadow-sm mt-1 hover-effect" href="images/portfolio/George-Alfeser-Resume.pdf">View Resume <i
+                        class="fas fa-ducoment"></i></a>    
                   </div>
                 </div>
               </div>
@@ -130,7 +129,7 @@
               </div>
             </div>
             <div class="col-lg-5 offset-md-1 d-flex justify-content-center" data-aos="fade-left" data-aos-delay="100">
-              <img class="avatar mt-2 shadow-lg p-2 border mb-5 bg-body rounded rounded-2" src="images/mypicture.jpg" width="400" height="400"
+              <img class="avatar mt-2 shadow-lg p-2 border mb-5 bg-body rounded rounded-2" src="images/mypicture.png" width="400" height="400"
                 alt="Walter Patterson" />
             </div>
           </div>
