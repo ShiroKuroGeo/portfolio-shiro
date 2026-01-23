@@ -1,14 +1,20 @@
 <template>
-  <PortfolioShiro msg="Welcome to Your Vue.js App"/>
+    <HeaderPage />
+    <div class="page-content">
+        <div id="content">
+            <!-- <HeroPage /> -->
+            <SelfServices />
+        </div>
+    </div>
 </template>
 
-<script>
-import PortfolioShiro from './components/PortfolioShiro.vue'
+<script setup>
+import { onMounted } from 'vue';
+// import HeroPage from './components/HeroPage.vue';
+import HeaderPage from './components/HeaderPage.vue';
+import SelfServices from './components/SelfServices.vue';
 
-export default {
-  name: 'App',
-  components: {
-    PortfolioShiro
-  }
-}
+onMounted(()=>{
+    // alert('Still on going please wait!')
+})
 </script>
