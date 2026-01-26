@@ -15,7 +15,6 @@
         </div>
     </div>
     <FooterPage />
-    <Analytics />
 </template>
 
 <script setup>
@@ -26,7 +25,6 @@ import SelfServices from './components/SelfServices.vue';
 import OwnProject from './components/OwnProject.vue';
 import FooterPage from './components/FooterPage.vue';
 import ContactPage from './components/ContactPage.vue';
-import { Analytics } from '@vercel/analytics'
 
 onMounted(() => {
     // alert('Still on going please wait!')
