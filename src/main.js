@@ -2,9 +2,10 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import VueSweetalert2 from 'vue-sweetalert2'
 import 'sweetalert2/dist/sweetalert2.min.css'
-import { Analytics } from '@vercel/analytics'
 
 const app = createApp(App)
+
+// SweetAlert2
 app.use(VueSweetalert2)
-Analytics.init()
+
 app.mount('#app')
