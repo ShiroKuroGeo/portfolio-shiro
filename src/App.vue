@@ -15,10 +15,12 @@
         </div>
     </div>
     <FooterPage />
+    <Analytics />
 </template>
 
 <script setup>
 import { onMounted } from 'vue';
+import { Analytics } from '@vercel/analytics/vue';
 import HeaderPage from './components/HeaderPage.vue';
 import HeroPage from './components/HeroPage.vue';
 import SelfServices from './components/SelfServices.vue';
