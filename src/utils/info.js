@@ -4,6 +4,24 @@ export const link = {
     'github': 'https://github.com/ShiroKuroGeo',
 }
 
+export const links = [
+    {
+        name: 'Facebook',
+        icon: 'fab fa-facebook',
+        link: 'https://www.facebook.com/alfeser.shiro',
+    },
+    {
+        name: 'Instagram',
+        icon: 'fab fa-instagram',
+        link: 'https://www.instagram.com/IAmShiro07',
+    },
+    {
+        name: 'Github',
+        icon: 'fab fa-github',
+        link: 'https://github.com/ShiroKuroGeo',
+    },
+]
+
 export const personal = {
     'name': 'George Alfeser Inoc',
     'first_name': 'George Alfeser',

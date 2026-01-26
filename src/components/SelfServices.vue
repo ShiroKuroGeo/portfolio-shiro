@@ -1,9 +1,9 @@
 <template>
-    <div class="section h-100" id="services">
+    <div class="section" id="services">
         <div class="container">
             <div class="text-start mb-3">
                 <h4>My <span class="text-primary">Skills</span> and <span class="text-primary">Coding Languages</span></h4>
-                <label class="text-secondary">
+                <label class="text-muted">
                     Learning web developer with experience in Frontend, Backend, Databases, and Dev Tools. I continuously improve my skills and build projects using modern technologies like Vue.js, React.js, Laravel, Node.js, and more.
                 </label>
             </div>
