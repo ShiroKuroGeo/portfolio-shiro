@@ -8,7 +8,7 @@
         </div>
         <div class="row row-cols-1 row-cols-md-4 g-1">
             <div class="col d-flex">
-                <div class="border p-2 w-100" data-aos="fade-right">
+                <div class="border p-2 w-100">
                     <h5>Frontend</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">
@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="col d-flex">
-                <div class="border p-2 w-100" data-aos="fade-up">
+                <div class="border p-2 w-100">
                     <h5>Backend</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="col d-flex">
-                <div class="border p-2 w-100" data-aos="fade-up">
+                <div class="border p-2 w-100">
                     <h5>Databases</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="col d-flex">
-                <div class="border p-2 w-100" data-aos="fade-left">
+                <div class="border p-2 w-100">
                     <h5>Tools</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">
