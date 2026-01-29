@@ -1,14 +1,14 @@
 <template>
     <div class="container px-2 px-lg-0" id="services">
-        <div class="text-start mb-3">
-            <h4>My <span class="text-primary">Skills</span> and <span class="text-primary">Coding Languages</span></h4>
+        <div class="text-center mb-3" data-aos="fade-down">
+            <h1>My <span class="text-primary">Skills</span> and <span class="text-primary">Coding Languages</span></h1>
             <label class="text-muted">
                 Learning web developer with experience in Frontend, Backend, Databases, and Dev Tools. I continuously improve my skills and build projects using modern technologies like Vue.js, React.js, Laravel, Node.js, and more.
             </label>
         </div>
         <div class="row row-cols-1 row-cols-md-4 g-1">
             <div class="col d-flex">
-                <div class="border p-2 w-100">
+                <div class="border p-2 w-100" data-aos="fade-right">
                     <h5>Frontend</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">
@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="col d-flex">
-                <div class="border p-2 w-100">
+                <div class="border p-2 w-100" data-aos="fade-up">
                     <h5>Backend</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="col d-flex">
-                <div class="border p-2 w-100">
+                <div class="border p-2 w-100" data-aos="fade-up">
                     <h5>Databases</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="col d-flex">
-                <div class="border p-2 w-100">
+                <div class="border p-2 w-100" data-aos="fade-left">
                     <h5>Tools</h5>
                     <ul class="nav d-flex flex-column">
                         <li class="mb-1 me-2">

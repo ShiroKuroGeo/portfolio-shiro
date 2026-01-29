@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="min-height: 85vh !important;">
+    <div class="container pb-1 pb-md-5 ">
         <div class="row">
             <div class="col-lg-6 p-2">
                 <!-- <div class="bg-dark" style="width: 650px; height: 580px;"></div> -->
@@ -15,8 +15,8 @@
                         Full Stack Developer
                     </p>
                     <p class="hero-description">
-                        A self-taught web developer based in Cordova, Cebu, Philippines, with experience building chat-based support systems, maintaining ticketing systems, and developing single-page applications.
-                        I am continuously pursuing growth as a developer and eager to  and learn new languages.
+                        A self-taught web developer based in Cordova, Cebu, Philippines, with experience building chat-based support systems, developed and maintaining ticketing systems, and developing single-page applications.
+                        I am continuously pursuing growth as a developer and eager to and learn new languages.
                     </p>
                     <div class="row row-cols-1 row-cols-md-3 column-gap-3 g-1 d-flex">
                         <div class="col d-flex flex-column">

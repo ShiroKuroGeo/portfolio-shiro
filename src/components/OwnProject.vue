@@ -16,7 +16,7 @@
             </label>
             <input type="search" name="search_project" id="search_project" v-model="search_category" placeholder="Search Shiro's Project" class="form-control form-control-sm">
         </div>
-        <div class="col-12">
+        <div class="col-12" >
             <button class="btn btn-sm rounded-0 btn-light me-2 mt-2" v-for="category in categories" :key="category" style="font-size: 0.8rem;">
                 {{ category.label }}
             </button>
