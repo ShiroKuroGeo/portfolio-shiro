@@ -1,0 +1,10 @@
+.myImage {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .myImage {
+        width: 100%;
+        max-width: 500px;
+    }
+}

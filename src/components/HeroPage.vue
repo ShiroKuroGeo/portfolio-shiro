@@ -2,12 +2,11 @@
     <div class="container" style="min-height: 85vh !important;">
         <div class="row">
             <div class="col-lg-6 p-2">
-                <div class="border h-100 bg-light d-flex justify-content-center align-items-center">
-                    George Alfeser Picture
-                </div>
+                <!-- <div class="bg-dark" style="width: 650px; height: 580px;"></div> -->
+                <img src="../assets/MyProfile.png" class="rounded myImage" alt="">
             </div>
             <div class="col-lg-6">
-                <div class="mt-5">
+                <div class="mt-0 mt-md-5">
                     <p class="lead text-uppercase mb-1">Hello!</p>
                     <h1 class="intro-title marker">
                         I’m George Alfeser, but you can call me Shiro.
@@ -17,7 +16,7 @@
                     </p>
                     <p class="hero-description">
                         A self-taught web developer based in Cordova, Cebu, Philippines, with experience building chat-based support systems, maintaining ticketing systems, and developing single-page applications.
-                        I am continuously pursuing growth as a developer and eager to expand my skills and learn new languages.
+                        I am continuously pursuing growth as a developer and eager to  and learn new languages.
                     </p>
                     <div class="row row-cols-1 row-cols-md-3 column-gap-3 g-1 d-flex">
                         <div class="col d-flex flex-column">
@@ -34,7 +33,7 @@
                                 <h5>Skills Focus</h5>
                                 <small class="text-secondary" style="font-size: 0.7rem;">Database & Management</small>
                                 <p style="font-size: 0.8rem;">
-                                    Web Development, REST APIs, Database Design
+                                    Web Development, FASTApi, Database Design
                                 </p>
                             </div>
                         </div>

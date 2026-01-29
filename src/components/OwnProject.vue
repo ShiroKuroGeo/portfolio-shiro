@@ -1,7 +1,7 @@
 <template>
-    <div class="container" style="height: 95vh !important; min-height: 80vh !important;">
-        <div class="header">
-            <h3>My <span class="text-primary">Projects</span></h3>
+    <div class="container px-2 px-lg-0 mt-4 md-lg-2">
+        <div class="header text-center">
+            <h1 class="display fw-bold">My <span class="text-primary">Projects</span></h1>
             <label for="">
                 Here you’ll find projects that represent my journey as a developer—from small experiments to full-scale applications. These are works I’ve built while learning and growing as a web developer, each one teaching me something new and
                 helping sharpen my skills, with a strong focus on functionality, performance, and user experience.
@@ -66,8 +66,8 @@ const projects = ref([
     {
         project_name: 'Monsplit',
         project_desc: 'Easily distribute your salary into savings, loans, and expenses with real-time charts and insights. Plan smarter, save more, and stay financially organized without complicated calculations.',
-        project_url: '#!',
-        project_tags: ['React JS', 'Bootstrap 5', 'Zustand'],
+        project_url: 'https://monsplit.vercel.app/',
+        project_tags: ['React JS', 'Bootstrap 5'],
         project_image: monsplit_image,
         project_github_link: 'https://github.com/ShiroKuroGeo/monsplit',
         category: 'web',
@@ -75,7 +75,7 @@ const projects = ref([
     {
         project_name: 'Leejet Upholstery',
         project_desc: 'We help you transform your spaces with quality craftsmanship. Our expertise ensures your vision becomes reality, using the right tools and techniques to deliver exceptional results.',
-        project_url: 'https://shiro-project-j7u0clmbg-shirokurogeos-projects.vercel.app/',
+        project_url: 'https://leejetupholstery.vercel.app/',
         project_tags: ['Vue JS', 'Bootstrap 5'],
         project_image: leejet_image,
         project_github_link: 'https://github.com/ShiroKuroGeo/shiro_project',

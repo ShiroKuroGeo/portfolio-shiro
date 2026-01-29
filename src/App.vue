@@ -11,7 +11,7 @@
             <div class="my-5">
                 <SelfServices />
             </div>
-            <ContactPage />
+            <!-- <ContactPage /> -->
         </div>
     </div>
     <FooterPage />
@@ -24,7 +24,7 @@ import HeroPage from './components/HeroPage.vue';
 import SelfServices from './components/SelfServices.vue';
 import OwnProject from './components/OwnProject.vue';
 import FooterPage from './components/FooterPage.vue';
-import ContactPage from './components/ContactPage.vue';
+// import ContactPage from './components/ContactPage.vue';
 
 onMounted(() => {
     // alert('Still on going please wait!')
