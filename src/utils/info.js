@@ -2,6 +2,7 @@ export const link = {
     'facebook': 'https://www.facebook.com/alfeser.shiro',
     'instagram': 'https://www.instagram.com/IAmShiro07',
     'github': 'https://github.com/ShiroKuroGeo',
+    'resume': '/WebRes.pdf',
 }
 
 export const links = [
@@ -19,7 +20,7 @@ export const links = [
         name: 'Github',
         icon: 'fab fa-github',
         link: 'https://github.com/ShiroKuroGeo',
-    },
+    }
 ]
 
 export const personal = {

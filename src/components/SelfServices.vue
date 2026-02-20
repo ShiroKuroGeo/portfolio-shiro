@@ -3,7 +3,7 @@
         <div class="text-center mb-3" data-aos="fade-down">
             <h1>My <span class="text-primary">Skills</span> and <span class="text-primary">Coding Languages</span></h1>
             <label class="text-muted">
-                Learning web developer with experience in Frontend, Backend, Databases, and Dev Tools. I continuously improve my skills and build projects using modern technologies like Vue.js, React.js, Laravel, Node.js, and more.
+                Full-stack web developer specializing in modern technologies. I build projects using Vue.js, React.js, Laravel, Node.js, <br> and continuously expand my expertise across frontend, backend, databases, and development tools.
             </label>
         </div>
         <div class="row row-cols-1 row-cols-md-4 g-1">
