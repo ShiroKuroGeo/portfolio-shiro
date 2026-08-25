@@ -8,14 +8,14 @@
             </label>
         </div>
         <hr>
-        <div class="col-12 col-md-3">
+        <!-- <div class="col-12 col-md-3">
             <label for="" class="text-secondary">
                 <h6 class="p-0 m-0">
                     Search Project
                 </h6>
             </label>
             <input type="search" name="search_project" id="search_project" v-model="search" placeholder="Search Shiro's Project" class="form-control form-control-sm">
-        </div>
+        </div> -->
         <div class="col-12">
             <button class="btn btn-sm rounded-0 btn-light me-2 mt-2" v-for="category in categories" :key="category" @click="searchCategory(category.name)" style="font-size: 0.8rem;">
                 {{ category.label }}
@@ -60,7 +60,8 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import monsplit_image from '../assets/Project_Images/Monsplit_Screenshot.png'
+// import monsplit_image from '../assets/Project_Images/Monsplit_Screenshot.png'
+import courttesy from '../assets/Project_Images/courttesy.png';
 import leejet_image from '../assets/Project_Images/Upholstery_Screenshot.png'
 import anniv_image from '../assets/Project_Images/shiroxpumall_screenshot.png'
 import birthday_image from '../assets/Project_Images/birthday-angelito.png'
@@ -69,12 +70,12 @@ import maple_image from '../assets/Project_Images/maple.png'
 
 const projects = ref([
     {
-        project_name: 'Monsplit',
-        project_desc: "A responsive web application built with React.js and Bootstrap 5 to help users manage and distribute their salary into savings, loans, and expenses. Features real-time charts, interactive components, and a clean dashboard interface for better financial planning and visualization.",
-        project_url: 'https://monsplit.vercel.app/',
-        project_tags: ['React JS', 'Bootstrap 5'],
-        project_image: monsplit_image,
-        project_github_link: 'https://github.com/ShiroKuroGeo/monsplit',
+        project_name: 'Courttesy',
+        project_desc: "A full-stack court reservation web application built with Vue.js, Laravel, and Bootstrap 5 that enables users to view venue schedules, book pickleball courts, and manage bookings in real time. Features interactive calendar components, time-slot selection, and an admin dashboard interface for efficient scheduling and venue management.",
+        project_url: 'https://courttesy.vercel.app/',
+        project_tags: ['Vue JS', 'Custom CSS', 'Laravel'],
+        project_image: courttesy,
+        project_github_link: 'https://github.com/ShiroKuroGeo/projectJames',
         category: 'web',
     },
     {
@@ -125,10 +126,6 @@ const projects = ref([
 ]);
 
 const categories = ref([
-    {
-        name: 'all',
-        label: 'All Project',
-    },
     {
         name: 'web',
         label: 'Web Project',
