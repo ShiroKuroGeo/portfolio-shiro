@@ -1,5 +1,5 @@
 <template>
-    <section id="sec-education" class="block">
+    <section id="null-sec-education" class="block">
         <h2 class="block-title">Education</h2>
         <article v-for="e in education" :key="e.school" class="glass item">
             <p class="period">{{ e.period }}</p>

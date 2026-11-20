@@ -10,8 +10,8 @@
                         <ProjectInfo />
                         <ExperienceInfo />
                         <SkillInfo />
-                        <EducationInfo />
-                        <CertificateInfo />
+                        <!-- <EducationInfo />
+                        <CertificateInfo /> -->
                     </div>
                     <nav class="dock" aria-label="Portfolio sections">
                         <button v-for="t in tabs" :key="t.key" type="button" class="dock-btn" :class="{ active: active === t.key }" :aria-label="t.label" :title="t.label" @click="go(t.key)">
@@ -29,8 +29,8 @@ import { ref } from 'vue'
 import SummaryInfo from './components/SummaryInfo.vue'
 import ExperienceInfo from './components/ExperienceInfo.vue'
 import SkillInfo from './components/SkillInfo.vue'
-import EducationInfo from './components/EducationInfo.vue'
-import CertificateInfo from './components/CertificateInfo.vue'
+// import EducationInfo from './components/EducationInfo.vue'
+// import CertificateInfo from './components/CertificateInfo.vue'
 import ProjectInfo from './components/ProjectInfo.vue'
 import { icons } from './utils/info.js'
 
@@ -38,8 +38,8 @@ const tabs = [
     { key: 'projects', label: 'Projects', icon: 'folder' },
     { key: 'experience', label: 'Experience', icon: 'briefcase' },
     { key: 'skills', label: 'Skills', icon: 'zap' },
-    { key: 'education', label: 'Education', icon: 'cap' },
-    { key: 'certifications', label: 'Certifications', icon: 'award' },
+    // { key: 'education', label: 'Education', icon: 'cap' },
+    // { key: 'certifications', label: 'Certifications', icon: 'award' },
 ]
 
 const scroller = ref(null)
@@ -270,7 +270,7 @@ function onScroll() {
     background: var(--emerald);
 }
 
-#sec-education .block-title::after {
+/* #sec-education .block-title::after {
     background: var(--amber);
 }
 
@@ -280,7 +280,7 @@ function onScroll() {
 
 #sec-education .period {
     color: var(--amber);
-}
+} */
 
 .entry {
     position: relative;
