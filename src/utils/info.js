@@ -113,6 +113,7 @@ import mapleHelp from '@/assets/Project_Images/MapleHelp.png';
 import mapleAttendance from '@/assets/Project_Images/Maple-Attendance.png';
 import villarubiaAP from '@/assets/Project_Images/VillarubiaA&P.png';
 import gastotally from '@/assets/Project_Images/Gastotally.png';
+import MyShop from '@/assets/Project_Images/MyShopPOS.png';
 
 export const projects = [
     {
@@ -165,30 +166,14 @@ export const projects = [
         live: '',
         repo: '',
     },
-
-
-
-
-
-    // {
-    //     title: 'Internal Audit & IT Ticketing',
-    //     type: 'inhouse',
-    //     meta: 'Muramoto Audio-Visual Philippines, Inc.',
-    //     description: 'Internal audit and IT ticketing systems kept stable and updated for daily business processes.',
-    //     stack: ['PHP', 'Laravel', 'PGSQL'],
-    // },
-    // {
-    //     title: 'In-house IT Ticketing System',
-    //     type: 'inhouse',
-    //     meta: 'Wise Immigration and Study Services | Internship 2024',
-    //     description: 'Built to streamline technical request management and improve issue tracking.',
-    //     stack: ['Web app'],
-    // },
-    // {
-    //     title: 'Your Mobile App (placeholder)',
-    //     type: 'mobile',
-    //     meta: 'Replace this with your first mobile project',
-    //     description: 'Describe what the app does, who it is for, and what you built.',
-    //     stack: ['Add stack here'],
-    // },
+    {
+        title: 'My Shop',
+        type: 'mobile',
+        meta: 'Freelance | October 2026 – November 2026',
+        description: 'A mobile inventory and Point-of-Sale (POS) application that allows shop owners to add products, track expenses, and process customer checkouts.',
+        stack: ['Android Studio'],
+        image: MyShop,
+        live: '',
+        repo: '',
+    },
 ]
