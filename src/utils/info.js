@@ -5,7 +5,7 @@ export const profile = {
     title: 'Full Stack Developer',
     photo: photo,
     summary:
-        'Web Developer and Full-Stack Developer with 2+ years of experience building and maintaining web applications using Vue.js, Laravel, PHP, and MySQL. Experienced in business-critical systems like attendance, audit, and ticketing platforms.',
+        'Web Developer and Full-Stack Developer with 2+ years of experience building and maintaining web applications using Vue.js, Laravel, PHP, MySQL and PgSQL. Experienced in business-critical systems like attendance, audit, and ticketing platforms.',
     links: [
         { label: 'Email', icon: 'mail', url: 'mailto:info.alfeser.shiro@gmail.com' },
         { label: 'LinkedIn', icon: 'linkedin', url: 'https://www.linkedin.com/in/shiro77/' },
@@ -49,15 +49,27 @@ export const icons = {
 
 export const experience = [
     {
+        company: 'Freelancing',
+        role: 'Full Stack Developer',
+        period: 'June 2024 – Present',
+        bullets: [
+            'Developed an application for attendance and payroll that focuses on automating payroll, resolving manual deductions, and integrating biometric attendance',
+            'Developed web-based client project. It is a reservation and booking system that allows players to reserve a court by the hour on a selected date.',
+            'Developed a mobile application for tracking expenses, setting events, and scheduling appointments.',
+        ],
+    },
+    {
         company: 'Muramoto Audio-Visual Philippines, Inc.',
         role: 'Web Developer',
-        period: 'January 2025 – Present',
+        period: 'January 2025 – January 2027',
         bullets: [
-            'Maintain and support Internal Audit and IT Ticketing Systems for stable daily operations.',
-            'Monitor the MAORS (Employee Attendance) platform and resolve data discrepancies for accurate HR reporting.',
+            'Maintain and support Internal Audit and IT Ticketing Systems to ensure stable daily operations.',
+            'Monitor the MAORS ( Attendance ) platform and resolve data discrepancies for accurate HR reporting.',
             'Manage Barcode Printing Systems, including unique ID synchronization and firmware updates.',
-            'Develop web-based features using PHP, Laravel, Vue.js, JavaScript, and MySQL.',
-            'Generate and optimize Excel-based reports and database queries.',
+            'Develop web-based features using PHP, Laravel, Vue.js, JavaScript, PostgreSQL, and MySQL.',
+            'Maintain and support the Receive and Export System (RES) for products scheduled for export.',
+            'Develop a mobile application for tracking IT assets',
+            'Develop a web-based application for an in-house chat-based AI assistant',
         ],
     },
     {
@@ -73,12 +85,12 @@ export const experience = [
 ]
 
 export const skills = [
-    { group: 'Frontend', items: ['HTML5', 'CSS3', 'Vue.js (2 Years)', 'Bootstrap 5'] },
+    { group: 'Frontend', items: ['HTML5', 'CSS3', 'Vue.js', 'Custom CSS'] },
     { group: 'Programming', items: ['PHP', 'JavaScript'] },
     { group: 'Backend & Database', items: ['Laravel', 'SQL (MySQL/PostgreSQL)'] },
-    { group: 'Tools & Deployment', items: ['Git', 'SVN (TortoiseSVN)', 'Vercel'] },
+    { group: 'Tools & Deployment', items: ['Git', 'SVN (TortoiseSVN)', 'Vercel', 'Railway'] },
     { group: 'Productivity', items: ['Microsoft Office Suite (Excel, Word, PowerPoint)'] },
-    { group: 'Familiarity', items: ['Python', 'Mobile Application Development'] },
+    { group: 'Familiarity', items: ['Python', 'Android Studio'] },
 ]
 
 export const education = [
@@ -97,10 +109,10 @@ export const certifications = [
 ]
 
 import upholstery from '@/assets/Project_Images/courttesy.png';
-import mapleHelp from '@/assets/Project_Images/MapleHelp.png'; 
-import mapleAttendance from '@/assets/Project_Images/Maple-Attendance.png'; 
-import villarubiaAP from '@/assets/Project_Images/VillarubiaA&P.png'; 
-import gastotally from '@/assets/Project_Images/Gastotally.png'; 
+import mapleHelp from '@/assets/Project_Images/MapleHelp.png';
+import mapleAttendance from '@/assets/Project_Images/Maple-Attendance.png';
+import villarubiaAP from '@/assets/Project_Images/VillarubiaA&P.png';
+import gastotally from '@/assets/Project_Images/Gastotally.png';
 
 export const projects = [
     {
@@ -143,7 +155,6 @@ export const projects = [
         live: '',
         repo: '',
     },
-
     {
         title: 'Gastotally',
         type: 'mobile',
