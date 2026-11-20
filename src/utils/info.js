@@ -139,10 +139,10 @@ export const projects = [
         repo: '',
     },
     {
-        title: 'MAORS Attendance Platform',
+        title: 'MAORS Attendance',
         type: 'inhouse',
         meta: 'Muramoto Audio-Visual Philippines, Inc.',
-        description: 'Employee attendance platform. Monitored and maintained it, resolving data discrepancies for accurate HR reporting.',
+        description: 'Employee attendance. Monitored and maintained it, resolving data discrepancies for accurate HR reporting.',
         stack: ['PHP', 'Laravel', 'PGSQL'],
         image: mapleAttendance,
         live: '',
