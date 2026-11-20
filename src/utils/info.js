@@ -1,22 +1,28 @@
 import photo from '@/assets/MyProfile.png'
+import upholstery from '@/assets/Project_Images/courttesy.png';
+import mapleHelp from '@/assets/Project_Images/MapleHelp.png';
+import mapleAttendance from '@/assets/Project_Images/Maple-Attendance.png';
+import villarubiaAP from '@/assets/Project_Images/VillarubiaA&P.png';
+import gastotally from '@/assets/Project_Images/Gastotally.png';
+import MyShop from '@/assets/Project_Images/MyShopPOS.png';
 
 export const profile = {
     name: 'George Alfeser Inoc',
     title: 'Full Stack Developer',
     photo: photo,
     summary:
-        'Web Developer and Full-Stack Developer with 2+ years of experience building and maintaining web applications using Vue.js, Laravel, PHP, MySQL and PgSQL. Experienced in business-critical systems like attendance, audit, and ticketing platforms.',
+        'Web Developer and Full-Stack Developer with 2+ years of work experience building and maintaining web applications using Vue.js, Laravel, PHP, MySQL and PgSQL. Experienced in business-critical systems like attendance, audit, and ticketing platforms.',
     links: [
         { label: 'Email', icon: 'mail', url: 'mailto:info.alfeser.shiro@gmail.com' },
         { label: 'LinkedIn', icon: 'linkedin', url: 'https://www.linkedin.com/in/shiro77/' },
         { label: 'GitHub', icon: 'github', url: 'https://github.com/ShiroKuroGeo' },
-        { label: 'Facebook', icon: 'facebook', url: 'https://github.com/ShiroKuroGeo' },
-        { label: 'Instagram', icon: 'instagram', url: 'https://www.instagram.com/IAmShiro07' },
+        { label: 'Facebook', icon: 'facebook', url: 'https://www.facebook.com/alfeser.shiro' },
     ],
     personal: [
         { icon: 'pin', value: 'Poblacion Caumbay, Cordova, Cebu' },
         { icon: 'phone', value: '+639565635176' },
         { icon: 'mail', value: 'info.alfeser.shiro@gmail.com' },
+        { icon: 'hobby', value: 'Singing, Gaming' },
     ],
 }
 
@@ -45,6 +51,8 @@ export const icons = {
     cap: '<path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>',
     award: '<circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/>',
     folder: '<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>',
+    personality: '<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
+    hobby: '<line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/>',
 }
 
 export const experience = [
@@ -56,6 +64,7 @@ export const experience = [
             'Developed an application for attendance and payroll that focuses on automating payroll, resolving manual deductions, and integrating biometric attendance',
             'Developed web-based client project. It is a reservation and booking system that allows players to reserve a court by the hour on a selected date.',
             'Developed a mobile application for tracking expenses, setting events, and scheduling appointments.',
+            'Developed a web-based application for IT Ticketing System.',
         ],
     },
     {
@@ -89,7 +98,7 @@ export const skills = [
     { group: 'Programming', items: ['PHP', 'JavaScript'] },
     { group: 'Backend & Database', items: ['Laravel', 'SQL (MySQL/PostgreSQL)'] },
     { group: 'Tools & Deployment', items: ['Git', 'SVN (TortoiseSVN)', 'Vercel', 'Railway'] },
-    { group: 'Productivity', items: ['Microsoft Office Suite (Excel, Word, PowerPoint)'] },
+    { group: 'Productivity', items: ['Microsoft Office Suite (Excel, Word, PowerPoint)', 'Canva'] },
     { group: 'Familiarity', items: ['Python', 'Android Studio'] },
 ]
 
@@ -107,13 +116,6 @@ export const certifications = [
         ],
     },
 ]
-
-import upholstery from '@/assets/Project_Images/courttesy.png';
-import mapleHelp from '@/assets/Project_Images/MapleHelp.png';
-import mapleAttendance from '@/assets/Project_Images/Maple-Attendance.png';
-import villarubiaAP from '@/assets/Project_Images/VillarubiaA&P.png';
-import gastotally from '@/assets/Project_Images/Gastotally.png';
-import MyShop from '@/assets/Project_Images/MyShopPOS.png';
 
 export const projects = [
     {
