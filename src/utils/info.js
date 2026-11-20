@@ -121,7 +121,7 @@ export const projects = [
     {
         title: 'Courttesy',
         type: 'client',
-        meta: 'Freelance | July 2026 – Nov 2026',
+        meta: 'Freelance | July 2026 – November 2026',
         description: 'Courttesy is a web-based client project. It is a reservation and booking system that allows players to reserve a court by the hour on a selected date.',
         stack: ['Vue.js', 'Bootstrap 5'],
         image: upholstery,
@@ -170,7 +170,7 @@ export const projects = [
     },
     {
         title: 'My Shop',
-        type: 'mobile',
+        type: 'client',
         meta: 'Freelance | October 2026 – November 2026',
         description: 'A mobile inventory and Point-of-Sale (POS) application that allows shop owners to add products, track expenses, and process customer checkouts.',
         stack: ['Android Studio'],
