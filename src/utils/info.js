@@ -173,7 +173,7 @@ export const projects = [
         type: 'client',
         meta: 'Freelance | October 2026 – November 2026',
         description: 'A mobile inventory and Point-of-Sale (POS) application that allows shop owners to add products, track expenses, and process customer checkouts.',
-        stack: ['Android Studio'],
+        stack: ['Vue', 'Laravel', 'MYSQL'],
         image: MyShop,
         live: '',
         repo: '',
