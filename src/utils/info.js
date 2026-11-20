@@ -146,7 +146,7 @@ export const projects = [
 
     {
         title: 'Gastotally',
-        type: 'client',
+        type: 'mobile',
         meta: 'Freelance | September 2026 – September 2026',
         description: 'A mobile application for tracking expenses, setting events, and scheduling appointments.',
         stack: ['Android Studio'],
