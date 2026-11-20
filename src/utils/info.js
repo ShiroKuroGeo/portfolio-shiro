@@ -96,14 +96,20 @@ export const certifications = [
     },
 ]
 
+import upholstery from '@/assets/Project_Images/courttesy.png';
+import mapleHelp from '@/assets/Project_Images/MapleHelp.png'; 
+import mapleAttendance from '@/assets/Project_Images/Maple-Attendance.png'; 
+import villarubiaAP from '@/assets/Project_Images/VillarubiaA&P.png'; 
+import gastotally from '@/assets/Project_Images/Gastotally.png'; 
+
 export const projects = [
     {
-        title: 'Upholstery Business Website',
+        title: 'Courttesy',
         type: 'client',
-        meta: 'Freelance | Dec 2023 – Nov 2025',
-        description: 'Responsive single-page website that showcases services and receives customer inquiries.',
+        meta: 'Freelance | July 2026 – Nov 2026',
+        description: 'Courttesy is a web-based client project. It is a reservation and booking system that allows players to reserve a court by the hour on a selected date.',
         stack: ['Vue.js', 'Bootstrap 5'],
-        image: '',
+        image: upholstery,
         live: '',
         repo: '',
     },
@@ -112,41 +118,66 @@ export const projects = [
         type: 'inhouse',
         meta: 'Muramoto Audio-Visual Philippines, Inc.',
         description: 'Chat-based internal support system that helps employees with common inquiries and technical concerns.',
-        stack: ['Vue.js', 'PHP', 'Laravel', 'MySQL'],
+        stack: ['Vue.js', 'Python', 'PGSQL'],
+        image: mapleHelp,
+        live: '',
+        repo: '',
     },
     {
         title: 'MAORS Attendance Platform',
         type: 'inhouse',
         meta: 'Muramoto Audio-Visual Philippines, Inc.',
         description: 'Employee attendance platform. Monitored and maintained it, resolving data discrepancies for accurate HR reporting.',
-        stack: ['PHP', 'Laravel', 'MySQL'],
+        stack: ['PHP', 'Laravel', 'PGSQL'],
+        image: mapleAttendance,
+        live: '',
+        repo: '',
     },
     {
-        title: 'Internal Audit & IT Ticketing',
-        type: 'inhouse',
-        meta: 'Muramoto Audio-Visual Philippines, Inc.',
-        description: 'Internal audit and IT ticketing systems kept stable and updated for daily business processes.',
-        stack: ['PHP', 'Laravel', 'MySQL'],
+        title: 'Villarubi A&P',
+        type: 'client',
+        meta: 'Freelance | May 2026 – October 2026',
+        description: 'A web-based client application for attendance and payroll that focuses on automating payroll, resolving manual deductions, and integrating biometric attendance.  ',
+        stack: ['Vue.js', 'Laravel', 'MYSQL'],
+        image: villarubiaAP,
+        live: '',
+        repo: '',
     },
+
     {
-        title: 'Barcode Printing System',
-        type: 'inhouse',
-        meta: 'Muramoto Audio-Visual Philippines, Inc.',
-        description: 'Managed unique ID synchronization and firmware updates for reliable inventory tracking and labelling.',
-        stack: ['Barcode', 'Firmware', 'SQL'],
+        title: 'Gastotally',
+        type: 'client',
+        meta: 'Freelance | September 2026 – September 2026',
+        description: 'A mobile application for tracking expenses, setting events, and scheduling appointments.',
+        stack: ['Android Studio'],
+        image: gastotally,
+        live: '',
+        repo: '',
     },
-    {
-        title: 'In-house IT Ticketing System',
-        type: 'inhouse',
-        meta: 'Wise Immigration and Study Services | Internship 2024',
-        description: 'Built to streamline technical request management and improve issue tracking.',
-        stack: ['Web app'],
-    },
-    {
-        title: 'Your Mobile App (placeholder)',
-        type: 'mobile',
-        meta: 'Replace this with your first mobile project',
-        description: 'Describe what the app does, who it is for, and what you built.',
-        stack: ['Add stack here'],
-    },
+
+
+
+
+
+    // {
+    //     title: 'Internal Audit & IT Ticketing',
+    //     type: 'inhouse',
+    //     meta: 'Muramoto Audio-Visual Philippines, Inc.',
+    //     description: 'Internal audit and IT ticketing systems kept stable and updated for daily business processes.',
+    //     stack: ['PHP', 'Laravel', 'PGSQL'],
+    // },
+    // {
+    //     title: 'In-house IT Ticketing System',
+    //     type: 'inhouse',
+    //     meta: 'Wise Immigration and Study Services | Internship 2024',
+    //     description: 'Built to streamline technical request management and improve issue tracking.',
+    //     stack: ['Web app'],
+    // },
+    // {
+    //     title: 'Your Mobile App (placeholder)',
+    //     type: 'mobile',
+    //     meta: 'Replace this with your first mobile project',
+    //     description: 'Describe what the app does, who it is for, and what you built.',
+    //     stack: ['Add stack here'],
+    // },
 ]

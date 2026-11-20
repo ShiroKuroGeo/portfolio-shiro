@@ -26,20 +26,4 @@ import { skills } from '@/utils/info';
 .skills .label {
     color: var(--emerald);
 }
-
-.chip {
-    font-size: .8rem;
-    font-weight: 600;
-    padding: .25rem .72rem;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: rgba(238, 243, 255, 0.05);
-    color: var(--snow);
-    transition: border-color .2s, background .2s;
-}
-
-.chip:hover {
-    border-color: var(--cyan);
-    background: var(--cyan-soft);
-}
 </style>
